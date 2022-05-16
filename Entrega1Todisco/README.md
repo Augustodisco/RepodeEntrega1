@@ -11,3 +11,11 @@ olvidado del sufijo .db. Y tuve que cargarle.....toooooodos los datos de nuevo.
 4) Desde el Git Bash hice pull y push para cargar los trabajos del trabajo de utileria.
 
 5)Clone todo al trabajo definitivo, el que ven ahora (copie y pegue el README del MVT viejo, seguramente porque no fije el)
+
+6)Cree la carpeta Template y adentro de esta, la carpeta de la APP.
+
+7)Importe un bootstrap y cree varios templates equivalentes a los modelos.
+
+8) Hice las renderizaciones correspondientes
+
+9) Cree un Forms.py y cree un formulario, despues traté de hacer las validaciones correspondientes.

@@ -1,0 +1,24 @@
+{% extends "AppEntrega/inicio.html" %}
+
+{% load static %}
+
+{% block contenidoquecambia %}
+
+{% if miformulario.errors %}
+
+<p style="color:red"> Error colocar de nuevo los datos.</p>
+
+{% endif %}
+
+<form action="{% url 'personas' %}" method="POST">{% csrf_token %}
+   
+    <table>
+
+        {{miformulario.as_table}}
+
+   </table>
+   <input type="submit" value="Enviar en API">
+
+</form>
+
+{% endblock %}
